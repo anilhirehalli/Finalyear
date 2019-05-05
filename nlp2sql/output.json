@@ -1,0 +1,24 @@
+{
+	"select": {
+		"column": "name",
+		"type": "[]"
+	},
+	"from": {
+		"table": "analog"
+	},
+	"join": {
+	},
+	"where": {
+		"condition": [
+			{ "column": "IA3",
+			  "type": "None",
+			  "operator": ">",
+			  "value": "'25'"
+			}
+		]
+	},
+	"group_by": {
+	},
+	"select": {
+	},
+}
